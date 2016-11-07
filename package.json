@@ -4,15 +4,15 @@
     "description" : "stream html into html at a css selector",
     "main" : "index.js",
     "dependencies" : {
-        "trumpet" : "~1.5.0",
-        "duplexer" : "~0.0.2",
+        "trumpet" : "~1.7.2",
+        "duplexer" : "~0.1.1",
         "through" : "~2.3.4",
-        "concat-stream" : "~1.0.0",
+        "concat-stream" : "~1.5.2",
         "throughout" : "~0.0.0"
     },
     "devDependencies" : {
-        "tap" : "~0.4.0",
-        "hyperquest" : "~0.1.5"
+        "tap" : "~8.0.0",
+        "hyperquest" : "~2.1.0"
     },
     "scripts" : {
         "test" : "tap test/*.js"
